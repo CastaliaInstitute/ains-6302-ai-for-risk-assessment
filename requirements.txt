@@ -1,0 +1,9 @@
+jupyter-book==1.0.4.post1
+myst-parser
+matplotlib
+numpy
+pandas
+scikit-learn
+networkx
+RISE
+ipywidgets

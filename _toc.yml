@@ -1,0 +1,21 @@
+format: jb-book
+root: intro
+chapters:
+  - file: syllabus
+  - file: modules/module-1/overview
+    sections:
+      - file: modules/module-1/book-prose
+      - file: modules/module-1/assignment
+      - file: modules/module-1/slides
+      - file: modules/module-1/narration
+      - file: modules/module-1/instructor-notes
+      - file: notebooks/module-1-lab
+  - file: modules/module-2/overview
+    sections:
+      - file: modules/module-2/book-prose
+      - file: modules/module-2/assignment
+      - file: modules/module-2/slides
+      - file: modules/module-2/narration
+      - file: modules/module-2/instructor-notes
+      - file: notebooks/module-2-lab
+  - file: anubis

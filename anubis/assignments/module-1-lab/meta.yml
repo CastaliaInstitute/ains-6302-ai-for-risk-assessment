@@ -1,0 +1,11 @@
+# Anubis assignment metadata for AINS6302 Module 1
+# See https://anubis-lms.io/docs/autograding.html
+name: "Module 1 Lab: Quantitative Risk and Vulnerability Prioritization"
+course: "ains6302"
+unique_code: "ains6302-m1-lab"
+pipeline_image: "registry.digitalocean.com/anubis/assignment/ains6302-m1-lab"
+github_template: "CastaliaInstitute/ains-6302-ai-for-risk-assessment"
+autograde: true
+release_date: "TBD"
+due_date: "TBD"
+grace_date: "TBD"
