@@ -22,4 +22,4 @@ Given a synthetic asset inventory and a CVE feed, build a FAIR-style Monte Carlo
 - Slides — RISE-compatible notebook
 - Narration — async voiceover script
 - Instructor notes — teaching guidance
-- Lab — the graded notebook, autograded by Anubis
+- Lab — the graded notebook, assessed on **ANUBIS** (NetHunter + AI; not NYU *Anubis LMS*)

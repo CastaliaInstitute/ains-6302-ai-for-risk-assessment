@@ -31,8 +31,9 @@ By the end of the course, students should be able to:
 ## Assessment Pattern
 
 - weekly reading responses and discussion prompts
-- two applied lab notebooks (one per module) autograded via
-  [Anubis](https://anubis.castalia.institute/) — see `anubis.md`
+- two applied lab notebooks (one per module) assessed on **ANUBIS**
+  (Android NetHunter Unified Breach Intelligence System) at
+  <https://anubis.castalia.institute> — see `anubis.md`
 - a capstone analytic memo synthesizing both modules
 
 ## Course Rhythm
@@ -45,13 +46,17 @@ Each module in this book includes:
 - slides (RISE-compatible notebook)
 - narration for the slides
 - instructor notes
-- a notebook lab that is graded by Anubis
+- a notebook lab assessed on **ANUBIS** (NetHunter + AI; not NYU *Anubis LMS*)
 
 ## Platform
 
 - **Book site:** this repository, built with Jupyter Book and
   published to GitHub Pages.
-- **Autograder / Cloud IDE:** [Anubis LMS](https://anubis.castalia.institute)
-  under course code `ains6302`. Anubis generates a private
-  student repo from this template. Students push to that repo to
-  trigger autograding.
+- **ANUBIS (Android NetHunter Unified Breach Intelligence System):** Castalia’s
+  **AI + [Kali NetHunter](https://www.kali.org/docs/nethunter/)** platform
+  at [anubis.castalia.institute](https://anubis.castalia.institute) under
+  course code `ains6302`. A private student repository may be generated
+  from this **GitHub template**; when students **push** to the default
+  branch, the **ANUBIS** worker runs the `anubis/assignments/*` test bundle
+  and posts results. **This is not the unrelated NYU *Anubis LMS*.** See
+  `anubis.md`.

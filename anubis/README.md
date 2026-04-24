@@ -1,13 +1,8 @@
-# Anubis autograde tree — AINS6302 AI for Risk Assessment
+# `anubis/` — ANUBIS lab and autograde bundle
 
-This directory holds the autograde assignments for
-[Anubis LMS](https://anubis.castalia.institute) course `ains6302`.
+**ANUBIS** = **Android NetHunter Unified Breach Intelligence System** — Castalia’s **AI + Kali NetHunter** platform, served from [anubis.castalia.institute](https://anubis.castalia.institute).
 
-Each `assignments/<name>/` directory corresponds to one graded lab.
-From an Anubis Admin IDE, `cd` into an assignment directory and run:
+This directory is **not** related to the NYU *Anubis LMS* open-source autograder. It is the versioned **lab + autograde** material that the ANUBIS control plane uses for course code `ains6302`.
 
-```bash
-anubis assignment sync
-```
-
-to deploy it to <https://anubis.castalia.institute/courses/ains6302>.
+- `assignments/module-N-lab/` — one folder per graded lab: `assignment.py`, `meta.yml`, `Dockerfile` (or equivalent OCI), `test.sh`, `pipeline` hooks.
+- Instructors **publish** updates through Castalia’s ANUBIS deployment (admin + runbook) so the live workers match the `main` branch here.

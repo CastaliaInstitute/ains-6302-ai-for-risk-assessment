@@ -1,6 +1,6 @@
-"""Anubis autograde tests for AINS6302 Module 2 (Attack-Path Modeling and Breach Forecasting).
+"""ANUBIS (Android NetHunter Unified Breach Intelligence System) autograde tests for AINS6302 Module 2 (Attack-Path Modeling and Breach Forecasting).
 
-This file runs inside the Anubis pipeline. Student code is in the
+This file runs inside the ANUBIS autograde worker. Student code is in the
 current working directory. Never run student code directly —
 always go through ``exec_as_student``.
 """

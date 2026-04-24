@@ -22,4 +22,4 @@ Construct an attack graph from a synthetic network map and identify the top-5 at
 - Slides — RISE-compatible notebook
 - Narration — async voiceover script
 - Instructor notes — teaching guidance
-- Lab — the graded notebook, autograded by Anubis
+- Lab — the graded notebook, assessed on **ANUBIS** (NetHunter + AI; not NYU *Anubis LMS*)

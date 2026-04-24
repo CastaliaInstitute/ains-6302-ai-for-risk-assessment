@@ -1,5 +1,5 @@
-# Anubis pipeline entry point — do not edit.
+# ANUBIS pipeline entry point — do not edit.
 # Populated by `anubis assignment init`. This placeholder is
-# overwritten by the Anubis tooling on the next `sync`.
+# overwritten when Castalia’s ANUBIS deploy syncs the worker (not the NYU *Anubis LMS* `sync` CLI).
 if __name__ == "__main__":
-    print("Placeholder pipeline.py — run via Anubis Admin IDE.")
+    print("Placeholder pipeline.py — run via ANUBIS Admin IDE.")

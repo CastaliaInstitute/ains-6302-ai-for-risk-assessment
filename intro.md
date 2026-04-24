@@ -24,6 +24,4 @@ The first template version focuses on two foundational modules:
 ## Where this runs
 
 - **Book site** — GitHub Pages, published from `main` on every push
-- **Autograder** — [Anubis LMS](https://anubis.castalia.institute)
-  at `ains6302`. Students receive a private repository generated
-  from this template, push code, and get autograded feedback.
+- **ANUBIS (Android NetHunter Unified Breach Intelligence System)** — Castalia’s **AI + Kali NetHunter** platform at [anubis.castalia.institute](https://anubis.castalia.institute), course code `ains6302`. **Not** the unrelated NYU *Anubis LMS*; see [`anubis.md`](anubis.md). Students work from an **ANUBIS**-provisioned private repository created from this template, push their lab work, and receive results on the ANUBIS console.
